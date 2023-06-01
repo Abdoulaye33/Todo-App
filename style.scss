@@ -1,6 +1,16 @@
+$color-back: rgb(21, 21, 48);
+$color-txt: rgb(180, 164, 164);
 
 
 header {
     display: flex;
     justify-content: space-around;
+    & img {
+        height: 40px;
+        width: 40px;
+    }
+}
+.dark-mode {
+  background-color: $color-back;
+  color: $color-txt;  
 }

@@ -1,4 +1,13 @@
 header {
   display: flex;
   justify-content: space-around;
+}
+header img {
+  height: 40px;
+  width: 40px;
+}
+
+.dark-mode {
+  background-color: rgb(21, 21, 48);
+  color: rgb(180, 164, 164);
 }/*# sourceMappingURL=style.css.map */
